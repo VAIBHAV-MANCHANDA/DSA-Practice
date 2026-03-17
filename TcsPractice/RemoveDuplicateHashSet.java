@@ -1,8 +1,8 @@
 import java.util.*;
 //using HashSet
-public class RemoveDuplicate {
+public class RemoveDuplicateHashSet {
     public static void main(String[] args){
-        RemoveDuplicate ob =new RemoveDuplicate();
+        RemoveDuplicateHashSet ob =new RemoveDuplicateHashSet();
         ob.remove();
     }
 
