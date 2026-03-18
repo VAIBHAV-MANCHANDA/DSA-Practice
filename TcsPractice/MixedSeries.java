@@ -7,7 +7,7 @@
 // at odd and even positions.
 
 
-import java.util.*;
+// import java.util.*;
 public class MixedSeries {
     public static void main(String[] args){
         MixedSeries ob=new MixedSeries();
