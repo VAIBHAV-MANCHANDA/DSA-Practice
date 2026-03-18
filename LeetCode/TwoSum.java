@@ -11,6 +11,7 @@ public class TwoSum {
             secondOption=target-nums[i];
             if(map.containsKey(secondOption)){
                  System.out.println("["+map.get(secondOption)+","+i+"]");
+                // return new int[] {map.get(secondOption),i};
             }   
             map.put(nums[i],i);
         }
