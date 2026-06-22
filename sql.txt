@@ -1,0 +1,13 @@
+sqlBolt
+Mode analytics
+sql bootcamp of data with baraa
+Data Lemur
+
+
+1) DBMS vs RDBMS
+
+DBMS: DBMS is a software that is used to define, create, and maintain a database and provides controlled access to the data.
+
+RDBMS: is used to store or manage only the data that are in the form of tables.
+
+MySql, PostGreSql, IBM DB2, SQL Server, Oracle, Microsoft Access, Amazon Redshift, etc.

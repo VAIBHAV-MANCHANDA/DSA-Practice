@@ -1,0 +1,64 @@
+Ques 1) What happens internally when you create an object using new?
+
+Ans) When we create an object using new, Java does several steps behind the scenes:
+
+1>> memory is allocated : Java first create space in memory (heap) for the new object.
+
+2>> Default values are set : All variables of the object are given default values, like 0 for numbers, false for boolean, and null for objects.
+
+3>> Constructor is called : Then the constructor runs. It sets the values we pass and runs any setup code.
+
+4>> Reference is returned : Finally, the address (reference) of that object is returned and stored in our variable.
+
+
+
+
+Ques 2) Can we create an object without using the new keyword? If yes, how?
+
+Ans) Yes, there are several methods like:
+1>> Using Clone()
+2>> Using Reflection
+3>> Using deserialization
+4>> Using factory methods
+
+
+
+
+Ques 3) Can a class be declared without any variables or methods?
+
+Ans) yes, a class can be declared without any variables or methods. Java Still creates a .class file, it still has a default constructor and we can create its objects. When we need a class just to represent its type so we create empty class like this and this is called as a <<< marker class >>>.
+
+
+
+
+
+Ques 4) What is the difference between object and object reference?
+
+Ans) First, Object and object reference are not the same.
+
+Object is the real data, stored in the heap and created using 'new' keyword whereas object reference is a variable that stores the address of the object, stored in the stack memory and used to access the object.
+
+For eg, if we have a Student s = new Object(), 's' is the reference and its point to the actual object int he heap.
+
+
+
+
+Ques 5) Does assigning null to a reference delete the object?
+
+Ans) No, assigning null to a reference does not directly delete the object.
+Lets say, again we have a Student s = new Student(); When we do s = null, the reference is removed, the object is still there but unreachable.
+
+The object is not immediately destroyed, Garbage Collector will remove it later.
+
+
+
+
+Ques 6) Can a class have only static members? if Yes, then it is still be object oriented?
+
+Ans) Yes, a class can have only static members but conceptually object oriented is about objects having data + behaviour and stactic methods belongs to the class, not to objects so such a class is more procedural style than pure object oriented.
+
+
+
+Ques 7) Is encapsulation only about making variable private?
+
+Ans) No, encapsulation is not only about making variables private. Encapsulation means, keeping data safe by making variables private and controlling how it is accessed by getters and setters.
